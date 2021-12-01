@@ -1,0 +1,212 @@
+@charset "ISO-8859-1";
+* {
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+}
+.title{
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+
+.data_form{
+	height: 200px;
+	width: 300px;
+	padding: 8px 16px;
+	background-color: rgb(212, 236, 221);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 6px;
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+.data_form label{
+	font-weight: bold;
+}
+
+.data_form .ip{
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.btn{
+	padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color:rgb(17, 32, 49);
+    color: #fff;
+}
+
+
+.btn:hover {
+    background-color: rgb(160, 147, 125);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.link{
+	display: block;
+	background-color: rgb(17, 32, 49);
+	width: 120px;
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius:4px; 
+}
+
+.link a{
+	text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-style: italic;
+}
+
+.home{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(212, 236, 221);
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home h3 {
+    background-color: rgb(17, 32, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.home h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.upload-container{
+	padding: 8px 16px;
+	width:350px;
+	display: flex;
+	justify-content:center;
+	background-color:rgb(212, 236, 221);
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    border-radius: 10px; 
+}
+
+.upload-container .btn{
+	margin-left: 20px;
+}
+
+.upload-note{
+	width: 500px;
+	height: 100px;
+	border: dashed 1px;
+	border-radius: 5px; 
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin-top: 30px;
+    background-color: rgb(212, 236, 221);
+}
+
+.upload-note h3{
+	font-size:1.2rem;
+	font-weight: bold;
+	margin: 5px 5px;
+	color: red;
+}
+
+.upload-note ul {
+	margin: 0px 50px;
+}
+
+.upload-note ul li{
+	margin: 10px 0;
+}
+
+
+table-content{
+	border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.table-content thead tr {
+    background-color: rgb(52, 91, 99);
+    color: #fff;
+    font-weight: bold;
+}
+
+.table-content th,
+.table-content td {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table-content tr {
+    background-color: rgb(195, 205, 252);
+    border-bottom: 0.1px dotted black;
+}
+
+.table-content td a {
+	padding: 2px 4px;
+	border: none;
+	border-radius: 4px;
+	background-color:rgb(17, 32, 49);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contain-btn{
+	text-align: center;
+	width: 100%;
+	margin:30px 0px 20px 0px;
+}
+
+.contain-btn a{
+	padding: 8px 16px;
+	border-radius: 4px;
+	background-color: rgb(17, 32, 49);
+	border: none;
+	margin: 0px 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.contain-btn a:hover{
+	background-color: rgb(160, 147, 125);
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
